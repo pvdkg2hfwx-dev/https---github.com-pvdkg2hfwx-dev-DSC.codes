@@ -1,3 +1,4 @@
+//max min array program.
 #include <stdio.h>
 int main() {
 int n, i;
