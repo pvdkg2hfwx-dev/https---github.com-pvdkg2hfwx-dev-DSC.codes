@@ -10,7 +10,7 @@ struct NODE {
 
 // Create new node
 struct NODE* createNode(int value) {
-    struct NODE *newNode = malloc(sizeof(struct NODE));
+    struct NODE *newNode = (struct NODE *)malloc(sizeof(struct NODE));
     if (newNode == NULL) {
         printf("Memory allocation failed!\n");
         exit(1);
